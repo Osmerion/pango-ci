@@ -15,5 +15,5 @@ jobs:
           OSMERION_CI_ACCOUNT_NAME: ${{ secrets.OSMERION_CI_ACCOUNT_NAME }}
           OSMERION_CI_ACCOUNT_TOKEN: ${{ secrets.OSMERION_CI_ACCOUNT_TOKEN }}
         run: |
-          git remote set-url origin https://$OSMERION_CI_ACCOUNT_NAME:$OSMERION_CI_ACCOUNT_TOKEN@github.com/Osmerion/pango
+          git remote set-url origin https://$OSMERION_CI_ACCOUNT_NAME:$OSMERION_CI_ACCOUNT_TOKEN@github.com/Osmerion-CI/pango
           git push -f --mirror origin
